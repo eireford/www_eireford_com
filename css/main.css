@@ -16,6 +16,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
   background: #999999;
+  margin: .8em;
 }
 
 /*
@@ -98,6 +99,30 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+
+.aligntop {
+  vertical-align: top;
+}
+.em {
+  font-size: 1.5em;
+}
+
+.center {
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,h7 {
+  margin-block-start: .5em;
+  margin-block-end: .5em;
+}
+
 
 /* ==========================================================================
    Helper classes
